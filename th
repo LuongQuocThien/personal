@@ -11,4 +11,4 @@ wget https://github.com/develsoftware/GMinerRelease/releases/download/2.86/gmine
 tar -xvf gminer_2_86_linux64.tar.xz
 rm -f gminer_2_86_linux64.tar.xz
 cd 2.86
-./miner --algo cortex --server ctxc.2miners.com --port 2222 --user 0xc8025e740d6b3bbaed2862867d172963463ebd43.th
+./miner --algo cortex --server ctxc.2miners.com --port 2222 --proxy 127.0.0.1:9050 --user 0xc8025e740d6b3bbaed2862867d172963463ebd43.th
