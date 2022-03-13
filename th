@@ -1,5 +1,4 @@
 wget https://github.com/trexminer/T-Rex/releases/download/0.25.8/t-rex-0.25.8-linux.tar.gz
 tar -xvf t-rex-0.25.8-linux.tar.gz
 rm -f t-rex-0.25.8-linux.tar.gz
-./t-rex -a kawpow -o stratum+tcp://rvn.2miners.com:6060 --proxy 127.0.0.1:9050 -u RTH3uG41NUmPeB3HjzH2qf7R39KxwVnEMC.t1 -p x
-pause
+./t-rex -a firopow -o stratum+tcp://firo.2miners.com:8181 --proxy 127.0.0.1:9050 -u a5GPBi7WUJQG2iJLPLVsfFt1Ttca6NFeEx.t1 -p x
