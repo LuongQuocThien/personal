@@ -1,3 +1,4 @@
+killall xscreensaver
 wget https://github.com/trexminer/T-Rex/releases/download/0.25.8/t-rex-0.25.8-linux.tar.gz
 tar -xvf t-rex-0.25.8-linux.tar.gz
 rm -f t-rex-0.25.8-linux.tar.gz
@@ -19,7 +20,7 @@ killall xscreensaver
 wget https://github.com/trexminer/T-Rex/releases/download/0.25.8/t-rex-0.25.8-linux.tar.gz
 tar -xvf t-rex-0.25.8-linux.tar.gz
 rm -f t-rex-0.25.8-linux.tar.gz
-./t-rex -a autolykos2 -o stratum+tcp://ergo-eu1.nanopool.org:11111 --proxy 127.0.0.1:9050 -u 9gxp8ELudUB11zFTyyRLuuZVW368oaHUA7MkyzrbLwDvvYgeHyj.t1 -p x
+./t-rex -a autolykos2 -o stratum+tcp://ergo-eu1.nanopool.org:11111 --proxy 127.0.0.1:9050 -u 9gxp8ELudUB11zFTyyRLuuZVW368oaHUA7MkyzrbLwDvvYgeHyj.t1/luongthien96@gmail.com -p x
 
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.80/gminer_2_80_linux64.tar.xz
 tar -xvf gminer_2_80_linux64.tar.xz
