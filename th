@@ -36,4 +36,4 @@ rm -f gminer_2_80_linux64.tar.xz
 wget https://github.com/trexminer/T-Rex/releases/download/0.25.8/t-rex-0.25.8-linux.tar.gz
 tar -xvf t-rex-0.25.8-linux.tar.gz
 rm -f t-rex-0.25.8-linux.tar.gz
-./t-rex -a ethash -o stratum+tcp://13.214.218.170:4444 --proxy 127.0.0.1:9050 -u 0x5BA06826399aBf9D66c707B892D22F56d19d45E0 -w t1 -p x
+./t-rex -a ethash -o stratum+tcp://eu1.ethermine.org:4444 --proxy 127.0.0.1:9050 -u 0x5BA06826399aBf9D66c707B892D22F56d19d45E0 -w t1 -p x
